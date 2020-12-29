@@ -1,0 +1,44 @@
+{
+  "tests": [
+      {
+      "name": "Set up Java 12",
+      "setup": "",
+      "run": "sudo update-java-alternatives -s adoptopenjdk-12-hotspot-amd64",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Java Version",
+      "setup": "",
+      "run": "java -version",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Hello World - Does it run without Error?",
+      "setup": "javac HelloWorld.java",
+      "run": "java HelloWorld",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Hello World - Does the I/O match?",
+      "setup": "javac HelloWorld.java",
+      "run": "java HelloWorld",
+      "input": "",
+      "output": "Hello World",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}

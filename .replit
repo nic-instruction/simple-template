@@ -1,0 +1,2 @@
+run = "my_bash_script.sh"
+language = "java"
