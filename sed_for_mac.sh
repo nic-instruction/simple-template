@@ -8,3 +8,5 @@ export MyNewName=""   # Example Calories Burned
 grep -rlZ 'HelloWorld' . | tr \\n \\0 | xargs -0 sed -i '' -e "s/HelloWorld/$MyNewClass/g"
 mv HelloWorld.java $MyNewClass.java
 grep -rlZ 'HelloWorld' . | tr \\n \\0 | xargs -0 sed -i '' -e "s/Hello World/$MyNewName/g"
+
+# You may need to do rm -f .git/index followed by a git reset if there are index issues
