@@ -1,5 +1,6 @@
 #!/bin/bash
-# You must set the value of MyNewClass for this to work
+# You must set the value of MyNewClass & MyNewName for this to work
+# You must be in the root of your new repository for this to work.
 
 export LC_CTYPE="C"
 export MyNewClass=""  # Example: CaloriesBurned
@@ -9,4 +10,5 @@ grep -rlZ 'HelloWorld' . | tr \\n \\0 | xargs -0 sed -i '' -e "s/HelloWorld/$MyN
 mv HelloWorld.java $MyNewClass.java
 grep -rlZ 'HelloWorld' . | tr \\n \\0 | xargs -0 sed -i '' -e "s/Hello World/$MyNewName/g"
 
-# You may need to do rm -f .git/index followed by a git reset if there are index issues
+rm -f .git/index
+git reset
