@@ -23,7 +23,7 @@
     {
       "name": "Hello World - Does it run without Error?",
       "setup": "javac HelloWorld.java; echo -e '90\n5' > test; cat test",
-      "run": "java DivideInputIntigers.java < test",
+      "run": "java HelloWorld.java < test",
       "input": "",
       "output": "",
       "comparison": "included",
