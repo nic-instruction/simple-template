@@ -1,24 +1,17 @@
 # Week [] - Hello World
 
-Objective: Edit the HelloWorld Java class to take the inputs: age (years), weight (pounds), heart rate (beats per minute), and time (minutes) and output calories burned for women and men.
-
-Output each floating-point value with two digits after the decimal point, which can be achieved as follows:
-System.out.printf("%.2f", yourValue);
+Objective: Edit the HelloWorld Java class to take the inputs: 
 
 Example:
 
-If input for age, weight, heart rate, and time are:
+If the input is:
 
-`49 155 148 60`
+`this`
 
-Then output will be:
+Then the output will be:
 
-```
-Women: 580.94 calories
-Men: 891.47 calories
-```
+`this`
 
-Note: everybody processes calories differently, so this is probobly not accurate to individuals, but accurate to averages of large groups of people.  This is not meant to imply that there are only 2 genders or that gender is based on sex assigned at birth, because there aren't and it isn't.
 
    * There are many files in this repository and we will go through what each of them does in class, but the only one you need to edit is `HelloWorld.java`.
    * Each time you save your code in this repository a series of tests will be run against your code in a container.  To see if your code passed all the tests and is ready to submit, go to the 'Actions' tab of your repository and see if the last commit passed all the tests.  If it did, there will be a green checkmark by the last commit, otherwise there will be a red x.
